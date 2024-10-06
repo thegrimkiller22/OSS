@@ -8,6 +8,7 @@ import {
   IconBrandGoogle,
   IconBrandOnlyfans,
 } from "@tabler/icons-react";
+import { contactform } from "@/lib/action.js";
 
 export function SignupFormDemo() {
   const handleSubmit = (e) => {
@@ -16,7 +17,7 @@ export function SignupFormDemo() {
   };
   return (
     (<div
-      className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-black">
+      className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:py-2 md:px-8 shadow-input bg-black">
       <h2 className="font-bold text-xl  text-neutral-200">
         Welcome to Aceternity
       </h2>
@@ -24,26 +25,26 @@ export function SignupFormDemo() {
         Login to aceternity if you can because we don&apos;t have a login flow
         yet
       </p>
-      <form className="my-8" onSubmit={handleSubmit}>
+      <form className="my-8" action={contactform}>
         <div
           className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer className="">
-            <Label className="text-white" htmlFor="firstname">First name</Label>
-            <Input className="bg-zinc-800 text-white" id="firstname" placeholder="Tyler" type="text" />
+            <Label className="text-white" htmlFor="firstname">Organization</Label>
+            <Input name="name" className="bg-zinc-800 text-white" id="name" placeholder="Tyler" type="text" />
           </LabelInputContainer>
          
         </div>
         <LabelInputContainer className="mb-4">
           <Label className="text-white" htmlFor="email">Email Address</Label>
-          <Input className="bg-zinc-800 text-white" id="email" placeholder="projectmayhem@fc.com" type="email" />
+          <Input name="email" className="bg-zinc-800 text-white" id="email" placeholder="projectmayhem@fc.com" type="email" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
-          <Label className="text-white" htmlFor="password">Password</Label>
-          <Input className="bg-zinc-800 text-white" id="password" placeholder="••••••••" type="password" />
+          <Label className="text-white" htmlFor="password">Phone</Label>
+          <Input name="phone" className="bg-zinc-800 text-white" id="phone" placeholder="••••••••" type="tel" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
-          <Label className="text-white" htmlFor="twitterpassword">Your twitter password</Label>
-          <Input className="bg-zinc-800 text-white border-opacity-60" id="twitterpassword" placeholder="••••••••" type="twitterpassword" />
+          <Label className="text-white" htmlFor="twitterpassword">Your Custom Note</Label>
+          <Input name="message" className="bg-zinc-800 text-white border-opacity-60" id="twitterpassword" placeholder="••••••••" type="textarea" />
         </LabelInputContainer>
 
         <button
@@ -54,7 +55,7 @@ export function SignupFormDemo() {
         </button>
 
         <div
-          className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent my-8 h-[1px] w-full" />
+          className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent my-2 h-[1px] w-full" />
 
     
       </form>

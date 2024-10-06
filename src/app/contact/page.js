@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function Page() {
   return (
     <>
-      <div className="flex flex-col my-20 ">
+      <div className="flex flex-col  ">
         <div >
           <motion.div
             initial={{
@@ -36,7 +36,7 @@ export default function Page() {
           <div className="md:flex w-2/3 hidden ">
             <GlobeDemo />
           </div>
-          <div className="flex justify-center md:w-1/3 mt-8 ">
+          <div className="flex justify-center md:w-1/3  ">
             <SignupFormDemo />
           </div>
         </div>
