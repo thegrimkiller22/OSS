@@ -67,7 +67,7 @@ export const FloatingNav = ({ navItems, className }) => {
         ))} */}
         <Link href="/#services">
           <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
-            <span className="block sm:hidden">Home</span>
+            {/* <span className="block sm:hidden">Home</span> */}
             <span className="hidden sm:block text-sm"><IconHome className="h-4 w-4 text-neutral-500 dark:text-white" /></span>
             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
           </button>
@@ -77,7 +77,7 @@ export const FloatingNav = ({ navItems, className }) => {
         </Link>
         <Link href="/contact">
           <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
-            <span className="block sm:hidden">Contact</span>
+            {/* <span className="block sm:hidden">Contact</span> */}
             <span className="hidden sm:block text-sm"><IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" /></span>
             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
           </button>
