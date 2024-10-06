@@ -32,11 +32,11 @@ export default function Page() {
           </motion.div>
         </div>
 
-        <div className="flex pr-40 w-full h-auto items-center">
-          <div className="flex w-2/3 ">
+        <div className="flex md:pr-40 w-full h-auto justify-center items-center">
+          <div className="md:flex w-2/3 hidden ">
             <GlobeDemo />
           </div>
-          <div className=" w-1/3 mt-8 ">
+          <div className="flex justify-center md:w-1/3 mt-8 ">
             <SignupFormDemo />
           </div>
         </div>

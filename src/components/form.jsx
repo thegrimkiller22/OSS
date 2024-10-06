@@ -16,7 +16,7 @@ export function SignupFormDemo() {
   };
   return (
     (<div
-      className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:py-2 md:px-8 shadow-input bg-white dark:bg-black">
+      className=" md:max-w-md w-full mx-auto rounded-none md:rounded-2xl px-4 md:py-2 md:px-8 shadow-input bg-black">
       {/* <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
         Welcome to Aceternity
       </h2>

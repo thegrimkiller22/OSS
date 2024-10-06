@@ -5,7 +5,9 @@ import { cn } from "@/lib/utils";
 
 export default function LampDemo() {
   return (
-    (<LampContainer>
+    (
+    <div>
+    <LampContainer>
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -17,7 +19,8 @@ export default function LampDemo() {
         className="mt-8 bg-gradient-to-br from-purple-300 to-purple-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
         Build lamps <br /> the right way
       </motion.h1>
-    </LampContainer>)
+    </LampContainer>
+    </div>)
   );
 }
 
@@ -28,7 +31,7 @@ export const LampContainer = ({
   return (
     (<div
       className={cn(
-        "relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-black w-full z-0",
+        "relative flex min-h-screen flex-col md:items-center md:justify-center overflow-hidden bg-black w-full z-0",
         className
       )}>
       <div
@@ -72,7 +75,7 @@ export const LampContainer = ({
         <div
           className="absolute top-1/2 z-50 h-48 w-full bg-transparent opacity-10 backdrop-blur-md"></div>
         <div
-          className="absolute inset-auto z-50 h-36 w-[28rem] -translate-y-1/2 rounded-full bg-purple-500 opacity-50 blur-3xl"></div>
+          className="absolute inset-auto z-50 h-36  w-[28rem] -translate-y-1/2 rounded-full bg-purple-500 opacity-50 blur-3xl"></div>
         <motion.div
           initial={{ width: "8rem" }}
           whileInView={{ width: "16rem" }}

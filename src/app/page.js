@@ -11,12 +11,14 @@ import { HeroScrollDemo } from "@/components/cta";
 export default function Home() {
   return (
    <>
-    <FloatingNavDemo/>
+    {/* <FloatingNavDemo/> */}
+    <div className="overflow-x-hidden">
     <LampDemo/>
     <BackgroundBeamsDemo/>
     <CardHoverEffectDemo/>
     <HeroScrollDemo/>
-    <Footer/>
+    {/* <Footer/> */}
+    </div>
    </>
   );
 }
