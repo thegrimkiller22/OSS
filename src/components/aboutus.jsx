@@ -4,14 +4,16 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import { SparklesPreview } from "./heading";
 import { motion } from "framer-motion";
 
+// import { AnimatedBeamDemo } from "./clients";
+
 export function BackgroundBeamsDemo() {
   return (
-    <div className="h-screen relative w-full bg-black  flex flex-col antialiased">
-      <div className=" mx-auto p-4 ">
+    <div className="h-[40rem] relative w-full bg-black  flex flex-col antialiased">
+      <div className="  p-4 ">
         <h1 className="relative z-10 text-lg md:text-7xl   bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
           <SparklesPreview heading="About Us" />
         </h1>
-        {/* <TypingAnimation
+        {/* <p
       className="text-4xl font-bold text-white"
       text="Welcome to MailJet, the best transactional email service on the web.
           We provide reliable, scalable, and customizable email solutions for
@@ -27,7 +29,7 @@ export function BackgroundBeamsDemo() {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="relative flex flex-col gap-4 items-center justify-center mt-7 px-4"
+          className="relative flex flex-col gap-4 items-center justify-center mt-20 px-4"
         >
           <p className="text-neutral-500 max-w-2xl mx-auto  text-2xl text-center relative z-10">
             Welcome to MailJet, the best transactional email service on the web.
@@ -38,6 +40,7 @@ export function BackgroundBeamsDemo() {
           </p>
         </motion.div>
       </div>
+      {/* <AnimatedBeamDemo/> */}
       <BackgroundBeams />
     </div>
   );
