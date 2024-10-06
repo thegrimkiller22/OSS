@@ -5,16 +5,18 @@ import { FloatingNavDemo } from "@/components/header";
 import LampDemo from "@/components/ui/lamp";
 import { BackgroundBeamsDemo } from "@/components/aboutus";
 import { CardHoverEffectDemo } from "@/components/services";
-import footer from "@/components/footer";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
    <>
+   <div cals>
     <FloatingNavDemo/>
     <LampDemo/>
     <BackgroundBeamsDemo/>
     <CardHoverEffectDemo/>
-    <footer/>
+    <Footer/>
+    </div>
    </>
   );
 }
