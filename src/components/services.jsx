@@ -71,39 +71,39 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
   {
-    title: "Stripe",
+    title: "UI/UX Design",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      " They’re right when they say people ignore the design that ignores people. That’s why at OSS, we don’t just create a digital footprint for your business that attracts people, we create one that makes them stay. Our team listens to your story carefully, taking steps to ensure that your design adds to your business’ legacy.",
     link: "https://stripe.com",
   },
   {
-    title: "Netflix",
+    title: "Website Development",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "When everyone is stuck in their 9-5, Google is their go-to to get things done. That’s why OSS’ team is here to assist you in developing your digital resence with a website that speaks about your work. Our team masterfully crafts and plans out your website, so your clients know why they should choose you.",
     link: "https://netflix.com",
   },
   {
-    title: "Google",
+    title: "App Design",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+      "In today’s world of ‘There’s an App for That!’, OSS makes sure you don’t get left behind. We work tirelessly to create an app that speaks about your usiness, with interactive features that help lead your clients to the right place, and salient designs that make sure they come back again and again.",
     link: "https://google.com",
   },
   {
-    title: "Meta",
+    title: " Flyers and Banners",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+      " Want to reach a large audience in a quick and cost-effective manner? OSS’ banner designs are your gateway to the same. We don’t just design an ad, wecreate a message that connects with the people.",
     link: "https://meta.com",
   },
   {
-    title: "Amazon",
+    title: "Graphic Design Services",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+      "It’s true that design is thinking made visual. That’s why nailing the right design is important for your websites and apps. Instead of doing the hinking yourself, why not let us handle the job. OSS takes your thinking and translates it into a design that works for you and it’s liked by your clients.",
     link: "https://amazon.com",
   },
   {
-    title: "Microsoft",
+    title: " IT Consultancy",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+      "Whodoesn’t like a few tips and tricks? But let us present to you something better. Through tailored consultancy services, OSS ensures you make the most of your digital presence with quick and helpful support for managing all your digital needs.",
     link: "https://microsoft.com",
   },
 ];

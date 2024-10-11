@@ -32,11 +32,15 @@ export function BackgroundBeamsDemo() {
           className="relative flex flex-col gap-4 items-center justify-center mt-20 px-4"
         >
           <p className="text-neutral-500 max-w-2xl mx-auto  text-2xl text-center relative z-10">
-            Welcome to MailJet, the best transactional email service on the web.
-            We provide reliable, scalable, and customizable email solutions for
-            your business. Whether you&apos;re sending order confirmations,
-            password reset emails, or promotional campaigns, MailJet has got you
-            covered.
+          At OSS Consulting, we believe everyone deserves a novel digital
+            workspace to present their stories. And we&apos;re here for just
+            that. 
+          </p>
+          <p className="text-neutral-500 max-w-2xl mx-auto  text-2xl text-center relative z-10">
+            So whether it&apos;s showing the world your longstanding work,
+            or setting your first footprints in the digital space, OSS is here
+            to lead you through it all. So how do we do it? Let&apos;s take a
+            look at our services.
           </p>
         </motion.div>
       </div>
